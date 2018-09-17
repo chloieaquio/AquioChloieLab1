@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".linear_layout">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/download"
+        tools:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:text="QUIAPO CHURCH"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Location: Quezon Blvd., Plaza Miranda, Quiapo, Manila"
+        android:textSize="18sp"
+        tools:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Distance from UST: 24 km"
+        android:textSize="18sp"
+        tools:layout_marginLeft="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="V"
+            android:text="BACK"
+            android:textAllCaps="false"
+            tools:layout_marginLeft="30dp"
+            tools:layout_marginRight="30dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="1"
+            android:text="Next"
+            tools:layout_marginRight="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
